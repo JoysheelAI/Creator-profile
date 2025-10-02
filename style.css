@@ -1,0 +1,94 @@
+html {
+    background-color: #1E1E2E; 
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+header {
+    text-align: center;
+    margin-top: 30px;
+}
+
+header p {
+    color: #C0C0C0;
+}
+
+
+#abt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    gap: 40px;
+}
+
+#about {
+    max-width: 600px;
+    padding: 20px;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.05); /* slight overlay for depth */
+    text-align: left;
+}
+
+#about h2 {
+    margin-bottom: 15px;
+}
+
+
+.section-title.projects {
+    color: #C0C0C0;
+    text-align: center;
+}
+
+.projects-list {
+    color: #FF6EC7;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+
+.section-title.connect {
+    color: #98FF98;
+    text-align: center;
+}
+
+.connect-text {
+    color: #FFD700;
+    text-align: center;
+}
+
+.connect-list {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.connect-list li a {
+    color: #00FFFF; 
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.connect-list li a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    text-align: center;
+    margin: 50px 0 20px 0;
+    color: #FFD700;
+}
